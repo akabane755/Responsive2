@@ -147,6 +147,205 @@ figcaption{
    
    background: rgba(71, 125, 17, 0.15);
 }
+
+.section3>div{
+    max-width: 1450px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content:space-evenly;
+    
+    margin:0 auto;
+    margin-top:128px;
+    border-radius: 8px;
+
+background: rgba(39, 39, 39, 0.05);
+}
+.card{
+    padding-top:86px;
+    padding-bottom:86px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section3 p{
+    color: rgba(39, 39, 39, 0.8);
+font-size: 1.5rem;
+font-weight: 600;
+
+text-align: center;
+}
+.section4{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 8px;
+  
+background: rgba(229, 84, 115, 0.05);
+margin-top: 128px;
+padding-top:100px;
+padding-bottom:100px;
+
+}
+.sec41{
+    max-width: 594px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.sec41 h1{
+   font-size: 2.5rem;
+font-weight: 800;
+margin-bottom: 0px;
+}
+.sec41 p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.6);
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.sec41 button{
+    color:white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 8px;
+margin-top: 0px;
+background: rgb(229, 84, 115);
+padding: 20px 43px 20px 43px;
+border: none;
+}
+.section5 h1{
+    font-size: 2.5rem;
+font-weight: 800;
+}
+.section5 p{
+    color: rgba(39, 39, 39, 0.6);
+
+font-size: 1.1rem;
+font-weight: 400;
+}
+.section5 div{
+    max-width: 594px;
+}
+.section5{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin-top:128px;
+}
+.section6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+}
+.section6 img{
+    width: 100%;
+}
+.sec61{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 1440px;
+    gap:24px;
+}
+.section7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:128px;
+  text-align: center;
+  background:url("Flower Asset/Rectangle 9.png");
+  max-width:1440px;
+  
+}
+.sec71{
+    
+    max-width:866px;
+  
+    padding-top:6.3vw;
+    padding-bottom:6.3vw;
+    background-repeat: no-repeat;
+
+}
+.sec72{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:16px;
+    
+}
+.section7 h1{
+    font-size: 2.5rem;
+font-weight: 800;
+margin-bottom:16px;
+margin-top:0px;
+}
+.section7 button{
+    border-radius: 8px;
+
+background: rgb(229, 84, 115);
+color: rgb(255, 255, 255);
+
+font-size: 1.25rem;
+font-weight: 700;
+border:none;
+padding:18.29px 31px 18.29px 31px;
+}
+.section7 p{
+    font-size: 1.1rem;
+font-weight: 400;
+color: rgba(39, 39, 39, 0.6);
+
+}
+.section7 input{
+    border-radius: 8px;
+   max-width:700px;
+    height: 64px;
+background: rgb(255, 255, 255);
+border: none;
+padding-left:22px;
+
+
+}
+.section8{
+    background: rgb(17, 16, 16);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top:128px;
+padding-bottom:128px;
+margin-top: 128px;
+}
+.section8 subscript{
+    color: rgba(255, 255, 255, 0.4);
+font-size: 1rem;
+font-weight: 400;
+
+}
+.section8 p{
+    color: rgba(255, 255, 255, 0.9);
+font-size: 1.1rem;
+font-weight: 400;
+max-width: 625px;
+margin-bottom: 32px;
+
+
+}
+.section8 h1{
+  color:white;
+font-size: 3rem;
+font-weight: 800;
+margin-bottom: 24px;
+}
 @media screen and (max-width:576px) {
     header{
        
@@ -159,7 +358,10 @@ figcaption{
         width:100%;
        
     }
-    
+    .sec72{
+        display: flex;
+        flex-direction: column;
+    }
     header .text{
         
         width:100vw;
@@ -186,6 +388,9 @@ figcaption{
     .section1{
         width:100vw;
         height: auto;
+    }
+    .section7 input{
+        with:90vw;
     }
     
     .section1 h1{
@@ -215,7 +420,25 @@ figcaption{
   figcaption{
     font-size:2.9vw;
   }
-  
+ .sec61{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:10px;
+ }
+  .section3>div{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .section7 input{
+    width:90vw;
+}
+  .section4{
+    flex-direction: column;
+    gap:100px;
+  }
     
 }
 @media screen and (min-width:576px) and (max-width:1000px) {
@@ -225,12 +448,23 @@ figcaption{
         height:100vw;
         width:100vw;
     }
+    .section7 input{
+        width:90vw;
+    }
     header img{
        height:50vw;
         width:100%;
        
     }
-    
+    .sec72{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec61{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+       
+     }
     header .text{
         
         width:100vw;
