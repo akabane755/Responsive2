@@ -261,16 +261,25 @@ font-weight: 400;
     justify-content: center;
     margin-top:128px;
   text-align: center;
-  background:url("Flower Asset/Rectangle 9.png");
-  max-width:1440px;
+  
   
 }
+.section721{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  width: 75vw;
+   background:url("Flower Asset/Rectangle 9.png");
+   background: cover;
+   background-repeat: no-repeat;
+}
 .sec71{
-    
+   
+ 
     max-width:866px;
-  
-    padding-top:6.3vw;
-    padding-bottom:6.3vw;
+ 
+    padding-top:122px;
+    padding-bottom:122px;
     background-repeat: no-repeat;
 
 }
@@ -307,6 +316,7 @@ color: rgba(39, 39, 39, 0.6);
 .section7 input{
     border-radius: 8px;
    max-width:700px;
+   width:36.5vw;
     height: 64px;
 background: rgb(255, 255, 255);
 border: none;
@@ -351,6 +361,9 @@ margin-bottom: 24px;
        
         flex-direction: column;
        height: auto;
+        width:100vw;
+    }
+    .section721{
         width:100vw;
     }
     header img{
@@ -430,11 +443,11 @@ margin-bottom: 24px;
     grid-template-columns: repeat(1,1fr);
     align-items: center;
     justify-content: center;
-    
+  
   }
   .section7 input{
-    width:90vw;
-}
+    width:85vw;
+  }
   .section4{
     flex-direction: column;
     gap:100px;
@@ -449,12 +462,15 @@ margin-bottom: 24px;
         width:100vw;
     }
     .section7 input{
-        width:90vw;
+        width:85vw;
     }
     header img{
        height:50vw;
         width:100%;
        
+    }
+    .section721{
+        width:100vw;
     }
     .sec72{
         display: flex;
@@ -512,7 +528,9 @@ margin-bottom: 24px;
     figcaption{
         font-size:2.2vw;
     }
-    
+    .section7 input{
+        width: 90vw;
+    }
 
     
 }
